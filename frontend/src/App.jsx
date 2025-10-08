@@ -7,6 +7,7 @@ import EmailGenerator from './pages/EmailGenerator';
 import Dashboard from './pages/Dashboard';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import PlanDay from './pages/PlanDay';
 import './output.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/plan-day" element={<PlanDay />} />
         </Routes>
       </div>
     </Router>
